@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%; /*ancho*/    
+    height: 100%; /*alto*/ 
+  }
+  
+ 
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 48, 48);
+  }
+  
+  li {
+    line-height: 3;
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    
+    
+    footer{
+        background-color:rgb(226, 36, 36);
+        color:white;
+        text-align: center;
+        height: 60%;
+        width: 100%;
+        bottom: 0px;
+        position: relative;
+        justify-content: center;
+        
+       
+}
+
+.img-container{
+    border: solid 1px black;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.biblio-container{ /*PRICIPAL*/
+   
+   border: 1px solid rgb(0, 0, 3); /*ancho del borde*/
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+
+   
+}
+.img2-container{ /*SOLO IMAGEN DISEÑO*/
+
+    display: flex;
+    float: left;
+    background-position: right right;
+    margin-right: 10px; /*DISTANCIA DESDE LA FOTO A LA MARGEN*/
+    
+    
+    
+} 
+
+.tex-container .p{   /*SOLO TEXTO*/
+    float: left;
+    text-align: left;
+
+    
+    
+}
+.tex-container h2{ /*SOLO TEXTO*/
+    float: center;
+    text-align: justify;
+  }
+
+#bibliografia{
+    height: 60vh; /*altura de la pantalla*/  
+    
+  }
+
+
+.container{
+   
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    padding-left: 13%;
+    
+
+}
+
+.texto-container{
+    align-items: center;
+    display: flex;
+    justify-content:left;
+    text-align: center;
+}
+
+
+
+
+
